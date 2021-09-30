@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    background-color: #d3e0ea;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pastel2.jpg);
+
+    background-size: cover;
+}
+
+#addItemForm {
+    background-color: #74bfb0;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin-right: 10px;
+}
+
+#bar p {
+    margin-right: 0;
+}
+h1 {
+    margin: 0;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+}
+
+    li a {
+        font-size: 20px;
+        text-decoration: none;
+        padding: 3px;
+        color: black;
+    }
+
+        li a:hover {
+            background-color: white;
+        }
+
+#storeItems {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.itemBox {
+    text-align: center;
+    border: 2px solid white;
+    padding: 0 10px 10px 10px;
+
+    background-color: #fff6c1;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#bar p {
+    display:inline;
+    font-size: 20px;
+}
+
+img {
+    padding-top: 120px;
+    /*! margin-bottom: 20px; */
+}
+
+#bar {
+    width: 100%;
+    margin: 0;
+    background-color: pink;
+}
+
+#menuList {
+
+}
+
+#wallpaper img{
+    width:100%;
+    height: 500px;
+}
+
+button {
+    /* background: url(images/BuyNow.png); */
+}
+
+#checkoutList {
+    background-color: #d5ffd1;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+@media only screen and (max-width: 840px) {
+
+
+    .itemBox {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #checkoutList {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #bar {
+        font-size: 12px;
+    }
+}

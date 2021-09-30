@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="order.css">
+
+</head>
+<body>
+    <div id="bar">
+        <h1>Thank You For Shopping With William's</h1>
+        <div id="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a id="emp" href="cafe2.html">Back To Cafe Page</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <form id="addItemForm">
+        <table>
+            <tr>
+                <td>
+                    First Name:
+                    <input id="firstName" />
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                    <input id="lastName" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Card Type:
+                    <select id="cardType" name="Card Type" required>
+                        <option value="Credit" selected>Credit</option>
+                        <option value="Debit">Debit</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Card Number:
+                    <input id="cardNumber" minlength="16" maxlength="19" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Expiration Date (mm/yy):
+                    <input id="expireDate" maxlength="5"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Card Security Code (max 4 digits):
+                    <input id="securityCode" maxlength="4"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="order.js"></script>
+</body>
+</html>

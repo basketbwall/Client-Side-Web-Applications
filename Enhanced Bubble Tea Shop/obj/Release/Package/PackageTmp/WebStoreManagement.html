@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="WebStore.css">
+
+</head>
+<body>
+    <div id="bar">
+        <h1>Employee Panel</h1>
+        <div id="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a id="emp" href="cafe2.html">Back To Cafe Page</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div>
+        <h1>Add or Update a item here</h1>
+    </div>
+
+    <form id="addItemForm">
+        <table>
+            <tr id="row_Edit">
+                <td>
+                    Select Existing Item or Add New Item
+                    <select id="existingItemList" name="existingItem" required></select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="deleteCheckBox" name="checkbox">
+                    <label id="deleteLabel"for="checkbox">Delete Selected Item</label>
+                </td>
+            </tr>
+            <tr id="row_category">
+                <td>
+                    Select a category
+                    <select id="category" name="Category" required>
+                        <option value="Coffee" selected>Coffee</option>
+                        <option value="Tea">Tea</option>
+                        <option value="Pastry">Pastry</option>
+                        <option value="Merchandise">Merchandise</option>
+                    </select>
+                </td>
+            </tr>
+            <tr id="row_description">
+                <td>
+                    Enter a description <textarea id="description" rows="5" cols="50" name="Description" required></textarea>
+                </td>
+
+            </tr>
+            <tr id="row_title">
+                <td>
+                    Enter a title. If the title already exists, that item will be replaced/updated.
+                    <input id="title" type="text" name="Title" required />
+                </td>
+            </tr>
+            <tr id="row_price">
+                <td>
+                    Enter a price
+                    <input id="price" type="text" name="Price" required />
+                </td>
+            </tr>
+            <tr id="row_url">
+                <td>
+                    Enter a image url
+                    <input id="url" type="text" name="Url" required />
+                </td>
+            </tr>
+            <tr id="finalrow_submitBtn">
+                <td><input id="button" type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="WebStore.js"></script>
+
+
+</body>
+</html>

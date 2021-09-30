@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Z:\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Lab4.dll">
+      <publishTime>04/16/2021 23:42:34</publishTime>
+    </File>
+    <File Include="bin/Lab4.pdb">
+      <publishTime>04/16/2021 23:42:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="cafe.css">
+      <publishTime>04/16/2021 23:42:07</publishTime>
+    </File>
+    <File Include="cafe.js">
+      <publishTime>04/16/2021 23:42:07</publishTime>
+    </File>
+    <File Include="cafe2.html">
+      <publishTime>04/16/2021 23:42:07</publishTime>
+    </File>
+    <File Include="images/BuyNow.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cafeanime.gif">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cart.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof1.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof10.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof2.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof3.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof4.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof5.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof6.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof7.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof8.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/cof9.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/epiccafe.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/freshcafe.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/hdcafe.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/kitten.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/lovehut.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch1.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch10.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch2.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch3.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch4.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch5.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch6.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch7.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch8.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/merch9.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/Merchandise.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastel2.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastelbackground.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry1.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry10.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry2.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry3.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry4.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry5.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry6.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry7.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry8.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/pastry9.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/shopping-bag.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea1.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea10.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea2.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea3.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea4.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea5.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea6.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea7.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea8.jpeg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/tea9.jpg">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="images/wallpaper.png">
+      <publishTime>04/16/2021 23:41:43</publishTime>
+    </File>
+    <File Include="order.css">
+      <publishTime>04/16/2021 23:41:59</publishTime>
+    </File>
+    <File Include="order.html">
+      <publishTime>04/16/2021 23:41:59</publishTime>
+    </File>
+    <File Include="order.js">
+      <publishTime>04/16/2021 23:41:59</publishTime>
+    </File>
+    <File Include="WebStore.css">
+      <publishTime>04/16/2021 23:41:52</publishTime>
+    </File>
+    <File Include="WebStore.js">
+      <publishTime>04/16/2021 23:41:52</publishTime>
+    </File>
+    <File Include="WebStoreManagement.html">
+      <publishTime>04/16/2021 23:41:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
