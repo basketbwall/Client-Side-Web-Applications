@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Z:\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Lab2.dll">
+      <publishTime>02/28/2021 21:02:56</publishTime>
+    </File>
+    <File Include="bin/Lab2.pdb">
+      <publishTime>02/28/2021 21:02:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>02/10/2021 08:41:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>02/10/2021 08:41:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>02/10/2021 08:41:29</publishTime>
+    </File>
+    <File Include="fonts/.DS_Store">
+      <publishTime>02/25/2021 11:59:08</publishTime>
+    </File>
+    <File Include="fonts/Cartoon Slam.ttf">
+      <publishTime>02/25/2021 11:59:08</publishTime>
+    </File>
+    <File Include="images/.DS_Store">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/bakuganb.gif">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Alice.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Dan.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Julie.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Maruch.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Marucho.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Runo.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Bakugan_Shun.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/bakulogo.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/battlebrawlerspic.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Chara_hydron.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/drago.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/elements.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Fire_Wall.gif">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/GateCard.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/gatecardgif.gif">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/lync volan.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/pyrus.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/pyrusworld.jpg">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/Spectra_Phantom_Status.png">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="images/summon.gif">
+      <publishTime>02/25/2021 11:59:04</publishTime>
+    </File>
+    <File Include="lab2.css">
+      <publishTime>02/28/2021 20:13:43</publishTime>
+    </File>
+    <File Include="singlepage.html">
+      <publishTime>02/28/2021 20:45:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

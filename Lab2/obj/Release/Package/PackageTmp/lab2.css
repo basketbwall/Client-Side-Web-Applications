@@ -1,0 +1,288 @@
+p {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    /*! margin-left: 10%; */
+    /*! margin-right: 10%; */
+    font-size: 30px;
+}
+
+
+ol li{
+    color: white;
+    display: list-item;
+}
+h1 {
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.video {
+    display: block;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.page1 {
+    background-image: url(images/bakuwallpaper.jpg);
+    height: 100%;
+    width: 100%;
+}
+.page1 p {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    border: 2px red solid;
+}
+
+.intro h1 {
+    color: white;
+    /*! margin:15px; */
+    /*! width: 100%; */
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: red solid 2px;
+    /*! box-sizing: border-box; */
+}
+.page3 {
+    display: inline-block;
+    background-color: #ffbe0f;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.page2 h1 {
+    color: white;
+}
+
+.page4 {
+    color: white;
+    background-color: black;
+}
+
+    .page4 h1 {
+        margin-top: 0;
+        text-align: center;
+        color: white;
+    }
+
+body {
+    background-color: #982c2a;
+    margin: 0;
+}
+
+li {
+    font-size: 20px;
+    display: inline;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: 274.094px;
+    max-width: 201.594px;
+    top: 20px;
+    left: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.character_container {
+    float: left;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+}
+
+.char_name {
+    position: relative;
+    left: 20px;
+    color: black;
+}
+
+.photo {
+    background-color: black;
+    background-image: linear-gradient(black, #982c2a);
+}
+.picturespot {
+    display: inline;
+}
+.descriptionspot {
+    display: inline;
+    position:absolute;
+    right:auto;
+    left: auto;
+    font-size: 30px;
+}
+.page2 {
+    margin-bottom: 200px;
+}
+
+.page2item {
+    border-bottom: 2px black solid;
+}
+.floatstop {
+    background-color: black;
+    clear: both;
+}
+
+.navbar {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.navlist {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.footerdiv {
+    clear: both;
+}
+
+form {
+    align-content: center;
+}
+
+.titlequiz {
+    text-align: center;
+}
+
+#shun {
+    background-image: linear-gradient(black, green);
+}
+
+#alice {
+    background-image: linear-gradient(black, purple);
+}
+
+#runo {
+    background-image: linear-gradient(black, gold);
+}
+
+#marucho {
+    background-image: linear-gradient(black, blue);
+}
+
+#julie {
+    background-image: linear-gradient(black, brown);
+}
+
+#brawlers {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.footerinfo p {
+    text-align: center;
+    color: white;
+}
+
+table {
+    background-color: #982c2a;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+}
+
+textarea {
+    resize: none;
+}
+
+.description p {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .picturespot {
+        display: block;
+        margin-left: 0px;
+    }
+    .descriptionspot {
+        position: static;
+        
+    }
+    table, thead, tbody, tr, th, td {
+        display: block;
+        text-align: left;
+    }
+
+    .character_container {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .video {
+        margin-left: 0;
+    }
+    .page1 p {
+        padding: 5px;
+    }
+
+
+    li {
+        top: 0;
+        left: 0;
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .descriptionspot {
+        position: static;
+    }
+    .character_container {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .video {
+        margin-left: 0;
+    }
+    img {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        height: auto;
+    }
+}
