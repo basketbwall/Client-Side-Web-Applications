@@ -1,0 +1,94 @@
+﻿body {
+    background-color: #d3e0ea;
+    text-align: center;
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+}
+
+nav {
+    background-color: #f6f5f5;
+    font-size: 24pt;
+    
+}
+a {
+    text-decoration: none;
+}
+
+a:link { /*unvisited link*/
+    color: blue;
+}
+
+a:visited{ /*visited link*/
+    color:gray;
+}
+
+a:hover{ /*might wanna change*/
+  /*  color: #276678; */
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#currentpage {
+    color: #276678;
+}
+
+#lab_item {
+    background-color:antiquewhite;
+    width: 30%;
+    margin:2%;
+    padding: 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#resume {
+    width: 50%;
+    align-content: center;
+}
+
+footer {
+    clear: both;
+}
+
+#resume_comments {
+    align-content: center;
+}
+
+#pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.desc {
+   text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.pic_item {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div p {
+    margin-right: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.pepega {
+    position: relative;
+}
